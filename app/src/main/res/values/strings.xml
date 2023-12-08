@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MoviesApp</string>
+    <string name="app_name">RickAndMorty</string>
     <string name="characters">Characters</string>
     <string name="favourites">Favourites</string>
     <string name="episodes">Episodes</string>
