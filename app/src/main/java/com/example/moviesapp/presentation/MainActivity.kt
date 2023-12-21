@@ -13,7 +13,9 @@ import com.example.moviesapp.presentation.fragments.EpisodesFragment
 import com.example.moviesapp.presentation.fragments.FavouritesFragment
 import com.example.moviesapp.presentation.fragments.LocationsFragment
 import com.example.moviesapp.utils.constants.Navigation
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
