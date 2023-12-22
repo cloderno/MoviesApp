@@ -8,7 +8,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="status">Status: %s</string>
     <string name="search">Search</string>
     <string name="filter">Filter</string>
+
+    <string name="name">Name: %s</string>
+    <string name="gender">Gender: %s</string>
+    <string name="origin">Origin: %s</string>
+    <string name="location">Location: %s</string>
+    <string name="species">Species: %s</string>
+    <string name="status">Status: %s</string>
 </resources>

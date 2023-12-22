@@ -12,6 +12,8 @@ import com.example.moviesapp.R
 import com.example.moviesapp.domain.model.Character
 
 class CharacterAdapter: ListAdapter<Character, CharacterAdapter.CharacterViewHolder>(CharacterDiffCallback()) {
+    var onItemClickListener: ((Character) -> Unit)? = null
+
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
@@ -23,6 +25,10 @@ class CharacterAdapter: ListAdapter<Character, CharacterAdapter.CharacterViewHol
     override fun onBindViewHolder(holder: CharacterAdapter.CharacterViewHolder, position: Int) {
         val character = getItem(position)
         holder.bind(character)
+
+        holder.itemView.setOnClickListener {
+            onItemClickListener?.invoke(character)
+        }
     }
 
     class CharacterViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {

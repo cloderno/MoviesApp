@@ -16,6 +16,10 @@ data class Character(
     fun getFormattedStatus(): String {
         return status.name.toLowerCase().capitalize();
     }
+
+    fun getFormattedGender(): String {
+        return gender.name.toLowerCase().capitalize()
+    }
 }
 
 data class Location(

@@ -1,18 +1,17 @@
-package com.example.moviesapp.presentation
+package com.example.moviesapp.presentation.view
 
 import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.moviesapp.R
 import com.example.moviesapp.databinding.ActivityMainBinding
-import com.example.moviesapp.presentation.fragments.CharactersFragment
-import com.example.moviesapp.presentation.fragments.EpisodesFragment
-import com.example.moviesapp.presentation.fragments.FavouritesFragment
-import com.example.moviesapp.presentation.fragments.LocationsFragment
-import com.example.moviesapp.utils.constants.Navigation
+import com.example.moviesapp.presentation.view.fragments.CharactersFragment
+import com.example.moviesapp.presentation.view.fragments.EpisodesFragment
+import com.example.moviesapp.presentation.view.fragments.FavouritesFragment
+import com.example.moviesapp.presentation.view.fragments.LocationsFragment
+import com.example.moviesapp.helpers.constants.Navigation
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

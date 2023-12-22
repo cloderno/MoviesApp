@@ -4,7 +4,7 @@ package com.example.moviesapp.di
 import com.example.moviesapp.domain.repository.CharacterRepository
 import com.example.moviesapp.data.remote.dto.character.CharacterService
 import com.example.moviesapp.data.repository.CharacterRepositoryImpl
-import com.example.moviesapp.utils.constants.Constants
+import com.example.moviesapp.helpers.constants.Constants
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module
@@ -15,7 +15,6 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Singleton
 
 @Module

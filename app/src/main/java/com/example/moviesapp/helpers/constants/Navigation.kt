@@ -1,4 +1,4 @@
-package com.example.moviesapp.utils.constants
+package com.example.moviesapp.helpers.constants
 
 object Navigation {
     const val CHARACTERS        = "characters"
